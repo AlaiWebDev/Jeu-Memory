@@ -1,0 +1,383 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 740px;
+    margin: 20px;
+    perspective: 800px;
+    background-color: #000000;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 740px;
+    margin: 20px;
+    perspective: 800px;
+    background-color: #000000;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.disableCard {
+    pointer-events: none;
+}
+
+/***********card************/
+
+.front,
+.back {
+    width: 137px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card {
+    position: relative;
+    width: 137px;
+    height: 180px;
+}
+
+/* Le recto repasse devant */
+.front-l1 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l1 {
+    background-image: url("../img/card_1.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*/*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+
+/* Le recto repasse devant */
+.front-l2 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l2 {
+    background-image: url("../img/card_2.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+/* Le recto repasse devant */
+.front-l3 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l3 {
+    background-image: url("../img/card_3.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+/* Le recto repasse devant */
+.front-l4 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l4 {
+    background-image: url("../img/card_4.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+/* Le recto repasse devant */
+.front-l5 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l5 {
+    background-image: url("../img/card_5.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card************/
+/* Le recto repasse devant */
+.front-l6 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l6 {
+    background-image: url("../img/card_6.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+/* Le recto repasse devant */
+.front-l7 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l7 {
+    background-image: url("../img/card_7.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+/* Le recto repasse devant */
+.front-l8 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l8 {
+    background-image: url("../img/card_8.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+/* Le recto repasse devant */
+.front-l9 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l9 {
+    background-image: url("../img/card_9.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+/* Le recto repasse devant */
+.front-l10 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l10 {
+    background-image: url("../img/card_10.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card1************/
+/* Le recto repasse devant */
+.front-l11 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l11 {
+    background-image: url("../img/card_11.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/***********card*************/
+/* Le recto repasse devant */
+.front-l12 {
+    background-image: url("../img/back-card.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+}
+
+/* on retourne le verso, caché à l'origine */
+.back-l12 {
+    background-image: url("../img/card_12.jpg");
+    background-size: cover;
+    border: 2px solid #ffffff;
+
+    /*transform: rotateY\(180deg\);*/
+}
+
+/* POP_UP MODAL */
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.droite {
+    float: right;
+}
+
+.oModal {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.oModal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.oModal:target>div {
+    margin: 10% auto;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+.oModal>div {
+    max-width: 600px;
+    position: relative;
+    margin: 1% auto;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+    background: #eee;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.oModal>div header,
+.oModal>div footer {
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 5px 5px 0 0;
+    color: black;
+}
+
+.oModal .footer {
+    border: none;
+    border-top: 1px solid #e7e7e7;
+    border-radius: 0 0 5px 5px;
+    color: black;
+}
+
+#linkModal {
+    visibility: hidden;
+}
+
+.oModal>div h2 {
+    margin: 0;
+    color: black;
+}
+
+.oModal>div .btn {
+    float: right;
+    color: black;
+}
+
+#message {
+    text-align: center;
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+}
+
+.green {
+    background-color: rgb(6, 177, 6);
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.oModal>div section,
+.oModal>div>header,
+.oModal>div>footer {
+    padding: 15px;
+}
